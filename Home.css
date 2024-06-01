@@ -3,9 +3,17 @@
   background-position: 50% 50%;
 }
 
+
 .u-section-1 .u-sheet-1 {
   min-height: 891px;
 }
+.u-section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 .u-section-1 .u-text-1 {
   font-size: 3.75rem;
@@ -559,6 +567,7 @@
 } .u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/grass_10surprising_header.jpg");
   background-position: 50% 50%;
+
 }
 
 .u-section-4 .u-sheet-1 {
@@ -642,6 +651,9 @@
   width: 100%;
 }
 
+h2 {
+  text-align: center;
+}
 @media (max-width: 1199px) {
   .u-section-4 .u-sheet-1 {
     min-height: 628px;
@@ -702,6 +714,7 @@
   .u-section-4 .u-form-1 {
     width: 500px;
   }
+ 
 }
 
 @media (max-width: 575px) {
@@ -750,8 +763,8 @@
 
 .contact-section p {
   font-family: 'Lato', sans-serif;
-  font-size: 18px;
-  color: #555;
+  font-size: 40px;
+  color: #24ac24;
   margin-bottom: 40px;
 }
 
@@ -790,3 +803,95 @@
   box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
 }
 
+
+.header { 
+  height: 150px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  h2 {
+    top: -200px;
+  }
+  h5 {
+    top: -200px;
+  }
+  h1 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .u-section-2 .u-image-4 {
+    width: 210px;
+    height: 190px;
+    float: left;
+    position: relative;
+    top: -100px;
+    left: -40px;
+  }
+  .u-section-2 .u-image-3 {
+    width: 210px; /*change this later*/
+    height: 190px;
+    top: 130px;
+    float: right;
+    right: -37px; /* Added 'px' unit */
+  }
+  .u-section-2 .u-image-2 {
+    width: 210px; /*change this later*/
+    height: 194px;
+    top: 400px;
+    float: right;
+    right: -37px; /* Added 'px' unit */
+  }
+
+.u-section-2 .u-image-1 {
+  width: 210px;
+  height: 190px;
+  float: left;
+  position: relative;
+  top: 365px;
+  left: -60px;
+  }
+  
+
+  .u-section-1 .u-btn-1 {
+  font-size: 0.8rem; /* Further reduce font size for iPhone screen */
+  margin: 30px auto; /* Adjust margin for better centering */
+  padding: 12px 25px; /* Further adjust padding to fit better */
+  }
+
+  .u-section-3 .u-text-2 {
+  top: 100px;
+  }
+
+  .u-section-3 .u-text-1 {
+  top: 600px;
+  float: left;
+  }
+
+  .u-section-3 .u-image-1 {
+  display: none;
+  }
+
+
+  .u-section-3 .u-shape-1 {
+    text-align: center;
+    left: -30px;
+    position: absolute; /* Ensure it's positioned absolutely */
+    top: 650px; /* Adjust this value to move the element down */
+    
+}
+
+
+
+
+.u-section-3 .u-text-2 {
+ top: 650px;
+}
+
+.u-section-2 .u-text-9 {
+  display: none;
+}
+
+
+}
